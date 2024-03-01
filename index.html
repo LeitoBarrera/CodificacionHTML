@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estilos.css">
+    <title>JLB WEB DEVELOPMENT</title>
+</head>
+
+<body>
+    <!-- Seccion Inicio -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>JLB</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">HOME</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">ABOUT ME</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">SERVICES</a></li>
+                            <li><a href="#portafolio" onclick="seleccionar(this)">BRIEFCASE</a></li>
+                            <li><a href="#contacto"onclick="seleccionar(this)">CONTACT</a></li>
+                        </ul>
+                    </nav>
+                    <!-- Menu Responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+                    <!-- Iconos de Redes sociales -->
+                    <div class="redes">
+                        <a href="#"><i class="fa-brands fa-facebook" style="color: blue;"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram" style="color: #cf3fb5;"></i></a>
+                        <a href="#"><i class="fa-brands fa-github" style="color: #ffffff;"></i></a>
+                        <a href="#"><i class="fa-brands fa-whatsapp" style="color: #21a17a;"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="Bienvenida">Welcome to my briefcase</p>
+                <h2>I'm <span>Jaider Barrera</span>, Web developer</h2>
+                <p class="descripcion">Hey, how's it going! I'm introducing myself, I'm Jaider Barrera, student of Software Analysis and Development, below you will see a little bit of my portfolio, I hope you like it</p>
+                <a href="#portafolio" style="color: rgb(255, 255, 255);">Go to briefcase</a>
+            </div>
+        </div>
+    </section>  
+    
+    <!-- Seccion Sobre mi -->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="img/WhatsApp Image 2024-02-26 at 11.08.23 AM.jpeg" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">About Me</p>
+            <h2>Hello, i'm <span>Jaider Barrera</span></h2>
+            <h3>Web Developer</h3>
+            <p>I am an 18 years old young person looking to be a professional in web development, I consider myself good in this branch of technology and I know that I can learn much more over time, I have worked with languages such as PHP, Python, Java, among others</p>
+            <p>You can also check out my CV right below:</p>
+            <a href="#">Download CV</a>
+        </div>
+    </section>
+
+    <!--Seccion de proyectos-->
+    <section id="servicios">
+        <h3 class="titulo-seccion">MY SERVICES</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code" style="color: #6d1c6b;"></i></span>
+                <h4>Website Design</h4>
+                <hr>
+                <ul class="servicio-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                    <p>As a web designer, I have the ability to generate a service for anyone who needs it, besides, it is something that I like and am very passionate about</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code" style="color: #6d1c6b;"></i></span>
+                <h4>Backend Developer</h4>
+                <hr>
+                <ul class="servicio-tag">
+                    <li>Automation</li>
+                    <li>Security</li>
+                    <li>Integration</li>
+                </ul>
+                    <p>As part of being a developer, I also have knowledge about the backend process and all the fundamental parts that give function to the softwares</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code" style="color: #6d1c6b;"></i></span>
+                <h4>Databases</h4>
+                <hr>
+                <ul class="servicio-tag">
+                    <li>Relational</li>
+                    <li>Non-relational</li>
+                </ul>
+                    <p>As a developer, I have the ability to be able to immerse myself in the world of databases whether relational or non-relational</p>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code" style="color: #6d1c6b;"></i></span>
+                <h4>Software Analyst</h4>
+                <hr>
+                <ul class="servicio-tag">
+                    <li>Revise</li>
+                    <li>Try</li>
+                    <li>Document</li>
+                </ul>
+                    <p>Apart from being a developer, I am also an analyst, and I can perform basic tasks in this area, 
+                        such as preparing software requirements, documenting, among others ...</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code" style="color: #6d1c6b;"></i></span>
+                <h4>Scrum methodology</h4>
+                <hr>
+                <ul class="servicio-tag">
+                    <li>Product owner</li>
+                    <li>Scrum Master</li>
+                    <li>Development Team</li>
+                </ul>
+                    <p>I have handled the scrum methodology, being the leader of the project, as being part of the team of developers, I feel qualified to address this methodology as many times as necessary</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code" style="color: #6d1c6b;"></i></span>
+                <h4>Full stack Developer</h4>
+                <hr>
+                <ul class="servicio-tag">
+                    <li>Front End</li>
+                    <li></li>
+                    <li>Back End</li>
+                </ul>
+                    <p>Compiling a bit of the above, I consider myself a full stack developer, since I have handled both back end and front end</p>
+            </div>
+        </div>
+    </section>
+
+    <!--Seccion habilidades-->
+    <div class="contenedor-skills" id="skills">
+        <h3>SKILLS</h3>
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>HTML & CSS</p>
+                <span class="porcentaje">80%</span>
+            </div>
+            <div class="barra">
+                <div id="html" class="barra-progreso1"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>Python</p>
+                <span class="porcentaje">77%</span>
+            </div>
+            <div class="barra">
+                <div id="python" class="barra-progreso2"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>Databases</p>
+                <span class="">85%</span>
+            </div>
+            <div class="barra">
+                <div id="bd" class="barra-progreso3"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>PHP</p>
+                <span class="porcentaje">84%</span>
+            </div>
+            <div class="barra">
+                <div id="PHP" class="barra-progreso4"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>Java</p>
+                <span class="porcentaje">80%</span>
+            </div>
+            <div class="barra">
+                <div id="PHP" class="barra-progreso5"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>Javascript</p>
+                <span class="porcentaje">70%</span>
+            </div>
+            <div class="barra">
+                <div id="PHP" class="barra-progreso6"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Seccion Portafolio -->
+    <section id="portafolio">
+        <h3 class="titulo-seccion">MY PROJECTS</h3>
+            <div class="fila">
+                <div class="proyecto">
+                    <div class="overlay">
+                        <img src="img/html800450.png" alt="">
+                        <div class="info">
+                            <h4>Check out my projects here</h4>
+                            <p>HTML5 & CSS3</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <div class="overlay">
+                        <img src="img/php800450.png" alt="">
+                        <div class="info">
+                            <h4>Check out my projects here</h4>
+                            <p>PHP</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <div class="overlay">
+                        <img src="img/python800450.png" alt="">
+                        <div class="info">
+                            <h4>Check out my projects here</h4>
+                            <p>PYTHON</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="proyecto">
+                    <div class="overlay">
+                        <img src="img/Javascript800450.png" alt="">
+                        <div class="info">
+                            <h4>Check out my projects here</h4>
+                            <p>JAVASCRIPT</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <div class="overlay">
+                        <img src="img/java800450.png" alt="">
+                        <div class="info">
+                            <h4>Check out my projects here</h4>
+                            <p>JAVA</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <div class="overlay">
+                        <img src="img/mysql800450.png" alt="">
+                        <div class="info">
+                            <h4>Check out my projects here</h4>
+                            <p>MYSQL</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- Seccion Contacto -->
+    <section id="contacto">
+        <h3 class="titulo-seccion">Contact Me Now</h3>
+        <div class="contenedor-form">
+            <form action="">
+                <div class="fila mitad">
+                    <input type="text" placeholder="Full name" class="input-mitad">
+                    <input type="text" placeholder="Email Address" class="input-mitad">
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder="Theme..." class="input-full">
+                </div>
+                <div class="fila">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="your message..." class="input-full"></textarea>
+                </div>
+                <input type="submit" value="Send Message" class="btn-enviar">
+            </form>
+        </div>
+    </section>
+
+    <!-- Seccion footer -->
+    <footer>
+            <p>All rights reserved - 2024</p>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook" style="color: blue;"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram" style="color: #cf3fb5;"></i></a>
+                <a href="#"><i class="fa-brands fa-github" style="color: #ffffff;"></i></a>
+                <a href="#"><i class="fa-brands fa-whatsapp" style="color: #21a17a;"></i></a>
+            </div>
+    </footer>   
+    <script src="scripts.js"></script>
+</body>
+</html>
